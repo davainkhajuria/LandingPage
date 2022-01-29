@@ -19,42 +19,52 @@ body{
 }
 
 .container1{
-    opacity: 0.8;
+
     height: 70px;
     width: 100%;
     display: flex;
-    background-color: #f1feff;
-    justify-content:end;
+    background-color: #ffb96870;
+    justify-content: end;
+    border-bottom: 2px solid #403926;
 }
 .links{
-    margin: 50px;
+   margin: 50px;
    margin-top: 20px;
 }
-a{
+.link{
+    color: white;
     text-decoration: none;
 }
+.link:hover{
+    color: black;
+
+}
 .logo{
+    color: white;
     margin-right: 878px;
     font-size: small;
     margin-top: 2px;
 }
-button{
-    background-color: crimson;
+#signup{
+    color: white;
+    background-color: black;
     width: 94px;
     height: 22px;
 }
+#signup:hover{
+    background-color: white;
+    color: black;
+}
 .container2{
-    opacity: 0.8;
-    height: 481px;
-    background-color: #7ad3f6;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 66px;
+       height: 481px;
+       background-color: rgb(255 185 104 / 46%);
+       display: flex;
+       justify-content: space-evenly;
+       align-items: center;
 }
 .intro{
     font-size: large;
-    margin-top: 66px;
+    margin-top: 201px;
     height: 500px;
     width: 354px;
 }
@@ -71,8 +81,7 @@ button{
     opacity: 1;
 }
 .container3{
-    opacity: 0.8;
-    background-color: #dcd3ab;
+    background-color: #dcd3ab8a;
     margin-top: 196px;
     display: flex;
     flex-direction: column;
@@ -87,14 +96,66 @@ button{
     justify-content: space-evenly;
     align-items: center;
 }
+#subtext1{
+    color: white;
+}
 .subtext{
     height: 52px;
-   
+
     text-align: center;
+    color: white;
 }
+
 #image2, #image3, #image4, #image5{
     height: 190px;
     width: 207px;
     border-radius: 0px;
     border: 3px solid rgb(64 57 38);
+}
+
+.container4{
+    display: flex;
+    background-color: rgba(118, 118, 81, 0.8);
+    margin-top: 182px;
+    align-items: center;
+    justify-content: center;
+    height: 440px;
+    color: white;
+}
+.container5{
+    background-color: #9f9a79e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+    height: 245px;
+}
+.signupbox{
+    background-color: #fc4c00e6;
+    color: white;
+    width: 907px;
+    height: 132px;
+    padding-top: 14px;
+    border: 2px solid white;
+    border-radius: 43px;
+    text-align: center;
+}
+#signup1{
+    width: 112px;
+    height: 23px;
+    margin-top: 21px;
+    border-radius: 9px;
+
+}
+#slink :hover{
+    background-color: black;
+    color: white;
+}
+.container6{
+    display: flex;
+    background-color: #1b0d00e3;
+    color: white;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
 }
